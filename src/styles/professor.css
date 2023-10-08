@@ -1,0 +1,39 @@
+/*não mexer*/
+.conteudo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50vh 50vh;
+    
+    margin-top: 10%;
+    margin-bottom: 0%;
+}
+
+.conteudo-box{
+    background-color: var(--cor-quatro);
+    
+   
+}
+.conteudo-box2{
+    width: 100%;
+    background-image: url(../img/treinador-falando-com-a-vista-frontal-dos-jogadores\ 1professor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.professor-titulo{
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+    padding: 10% 10% 0% 10%;
+}
+
+.professor-texto{
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    color: white;
+    text-align: left;
+    padding: 2% 10% 10% 10%;
+}

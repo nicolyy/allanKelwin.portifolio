@@ -1,0 +1,130 @@
+.sobre-mim{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100% 100%;
+
+    padding: 5% 15% 0% 15%;
+}
+.sobre-mim-box{
+    width: 80%;
+    height: 100%;
+    
+    padding: 6% 6% 6% 6%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 30px 10px rgba(0, 0, 0, 0.17);
+}
+
+.sobre-mim-img{
+    width: 60%;
+    height: 50%;
+}
+
+details{
+    border-radius: 30px;
+    margin: 5%;
+}
+
+details > .summary-open{
+    margin-top: 0.1%;
+   
+    
+}
+
+details > .summary-open p{
+    padding: 2% 3% 3% 3%
+}
+
+
+.opcao1{
+    background-color: var(--cor-um);
+    
+
+}
+.opcao2{
+    background-color: var(--cor-dois);
+    
+}
+.opcao3{
+    background-color: var(--cor-tres);
+    
+}
+.opcao4{
+    background-color: var(--cor-quatro);
+    
+}
+
+
+
+
+.summary-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    
+    font-family: var(--fonte-principal);
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 5% 5% 5% 5%;
+
+    
+}
+.summary-texto{
+    font-family: var(--fonte-principal);
+    font-weight: light;
+    padding: 0 0 0 6%;
+    text-align: left;
+
+    color: #ffffff;
+}
+
+
+
+
+
+.sobre-mim-titulo{
+    font-family: var(--fonte-principal);
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000;
+    padding: 5% 10% 5% 10%;
+
+}
+
+.sobre-mim-texto{
+    font-family: var(--fonte-principal);
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 1.5rem;
+    color: #000000;
+}
+
+.principal-titulo{
+    font-family: var(--fonte-principal);
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000;
+    
+
+}
+.principal-subtitulo{
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    ;
+    color: #000000;
+
+
+}
+
+.principal-texto{
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    text-align: left;
+    color: #000000;
+    padding: 2% 0 0 0;
+}

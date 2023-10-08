@@ -1,0 +1,48 @@
+@import url(reset.css);
+@import url(sobre.css);
+@import url(professor.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Roboto:wght@400;900&display=swap');
+@import url(projeto.css);
+@import url(contato.css);
+
+/* Variaveis*/
+:root{
+    --cor-um: #FF9085;
+    --cor-dois: #2B3582;
+    --cor-tres: #FFC444;
+    --cor-quatro: #2EC4B6;
+
+    --cor-fundo: #D8DEE8;
+    --fonte-principal : 'inter';
+}
+
+
+
+.principal{
+    background-color: var(--cor-fundo);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 0 15% 0 15%;
+}
+
+.principal-img{
+    width: 50%;
+    padding: 5% 2% 5% 2%;
+}
+
+.nav{
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    text-transform: uppercase;
+    color: #2B3582;
+    font-size: 1.5rem;
+
+    padding-left: 5%;
+    padding-top: 2%;
+}
+.nav a {
+    text-decoration: none;
+    margin: 1%;
+}
