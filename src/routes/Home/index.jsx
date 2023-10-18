@@ -29,7 +29,7 @@ export default function Home() {
             <p className="principal-subtitulo principal-item">Profissional de Educação Fisica </p>
             <p className="principal-texto principal-item">"O esporte tem a capacidade de transformar pensamentos, 
                 quebrar paradigmas, educando os estudantes pelo movimento e interação social". Diogo Diedrich</p>
-            <Link to = "" className="">CONHECER</Link>
+            <Link to = "" className="btn-conhecer">CONHECER</Link>
         </article>
         <img className="principal-img" src={Quadra} alt = "Quatro pessoas praticando esportes em uma quadra escolar" />
       </main>
@@ -169,6 +169,7 @@ export default function Home() {
 
                   <div className="colum2">
                       <h2 className="contato-titulo">ENTRE EM CONTATO</h2>
+                     <div className="media-querie-social-links">
                       <div className="link-contato">
                           <img className="contato-img" src={Linkedin} alt="Logo do linkedin"/>
                           <a className="contato-texto" href="#">seuuseraqui.com</a>
@@ -180,6 +181,7 @@ export default function Home() {
                       <div className="link-contato">
                           <img className="contato-img"  src={Whatsapp} alt="Logo do Whatsapp"/>
                           <a  className="contato-texto" href="#">(11) 9898 - 9898</a>
+                      </div>
                       </div>
                   </div>
               </div>
