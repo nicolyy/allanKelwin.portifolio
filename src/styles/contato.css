@@ -155,13 +155,79 @@ textarea:focus{
 
 @media only screen and (max-width: 768px) {
     /* Estilos para dispositivos com largura máxima de 768px (tablets e dispositivos móveis) */
-  }
+ .contato{
+    margin-top: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0% 8% 0 8%;
+
+ }
+
+
+ .inp-name{
+    width: 100%;
+    height: 3rem;
+   
+}
+
+.inp-tel{
+    width: 100%;
+    height: 3rem;
+  
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-enviar{
+    
+    height: 2rem;
+    font-size: 1rem;
+    
+}
+
+.colum1{
+    height: 100vh;
+}
+
+.colum2{
+    margin-top: 5%;
+    height: 100vh;
+
+}
+
+.media-querie-social-links{
+    display: flex;
+    flex-direction: row;
+}
+
+.link-contato{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.contato-texto{
+    display: none;
+}
+
+}
 
 /* Estilos padrão para todos os dispositivos */
 
 @media only screen and (max-width: 480px) {
     /* Estilos para dispositivos com largura máxima de 480px (smartphones em modo retrato) */
-  }
+
+
+
+  
+
+}
 
 /* Estilos padrão para todos os dispositivos */
 

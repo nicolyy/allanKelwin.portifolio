@@ -133,7 +133,36 @@ details > .summary-open p{
 
 @media only screen and (max-width: 768px) {
     /* Estilos para dispositivos com largura máxima de 768px (tablets e dispositivos móveis) */
+  .sobre-mim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
+
+  .sobre-mim-box{
+    width: 100%;
+
+    
+    padding: 6% 6% 6% 6%;
+  }
+
+  .sobre-mim-titulo{
+    font-size: 32px;
+  }
+
+  .sobre-mim-texto{
+    font-size: 16px;
+  }
+
+  details{
+    border-radius: 30px;
+    margin: 5% 0 5% 0;
+}
+
+.summary-titulo{
+    font-size: 22px;
+}
+}
 
 /* Estilos padrão para todos os dispositivos */
 

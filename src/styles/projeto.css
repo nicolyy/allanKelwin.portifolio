@@ -47,7 +47,6 @@
    
 }
 
-
 .conteudo-projeto{
     width: 40%;
     height: 80%;
@@ -57,3 +56,91 @@
 .projeto-img{
     width: 100%;
 }
+
+/* Estilos padrão para todos os dispositivos */
+
+@media only screen and (max-width: 480px) {
+    /* Estilos para dispositivos com largura máxima de 480px (smartphones em modo retrato) */
+   
+
+}
+
+/* Estilos padrão para todos os dispositivos */
+
+
+@media only screen and (max-width: 768px) {
+    .projetos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0%  8% 30% 8%;
+    }
+    
+    
+    
+    .projeto-titulo{
+        font-family: var(--fonte-principal);
+        font-size: 1.5rem;
+        margin-bottom: 2%;
+
+    }
+    
+    .projeto-texto{
+        font-family: var(--fonte-principal);
+        font-weight: light;
+        text-align: justify;
+        font-size: 12px;
+    }
+    
+    .projeto-right{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      
+        
+        margin: 20% 0 20% 0 ;
+       
+    }
+    
+    .projeto-left{
+    
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        text-align:center;
+        
+        margin: 20% 0 20% 0 ;
+       
+    }
+    
+    .conteudo-projeto{
+        width: 100%;
+        height: 80%;
+
+        margin: 5% 0 5% 0
+       
+    }
+    
+    .projeto-img{
+        width: 80%;
+ 
+    }
+    
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    /* Estilos para tablets em modo retrato (largura entre 768px e 1024px) */
+
+
+
+
+}
+
+/* Estilos padrão para todos os dispositivos */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* Estilos para tablets em modo paisagem (largura entre 768px e 1024px) */
+  }
