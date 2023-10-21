@@ -47,6 +47,52 @@
     margin: 1%;
 }
 
+.professor-alunos{
+  height: 70vh;
+  margin: 10% 0 10% 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+    
+}
+.colum1-professor{
+  background-color: #2EC4B6;
+  height: 100%;
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+.colum1-professor h1{
+  font-size: var(--fonte-principal);
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.colum1-professor p{
+  font-family: var(--fonte-principal);
+  color: #ffffff;
+  margin: 0 8% 0 8%;
+}
+
+.colum2-professor{
+  height: 100%;
+  background-image: url(../assets/treinador.png);
+  grid-column: 2/2;
+  
+}
+
+
+
+
+
+
+
 
 /* Estilos padrão para todos os dispositivos */
 
@@ -91,6 +137,33 @@
     width: 90%;
     margin: 10% 0 5% 0;
   }
+
+
+  /*section professor*/
+  .professor-alunos{
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+      
+  }
+  .colum1-professor{
+    background-color: #2EC4B6;
+    width: 100%;
+    height: 50vh;
+  }
+  
+  .colum2-professor{
+
+    height: 50vh;
+   
+    background-image: url(../assets/treinador.png);
+    size: cover;
+  }
+  
 
 
   

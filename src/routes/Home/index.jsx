@@ -90,6 +90,31 @@ export default function Home() {
             </details>
             </div>
       </section>
+     
+     <section className="professor-alunos">
+        <div>
+            <div className="colum1-professor">
+                <h1>Alguma coisa Aqui</h1>
+                <p>is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever 
+                    since the 1500s, when an unknown printer took a galley of type
+                     and scrambled it to make a type specimen book. It has survived 
+                     not only five centuries, but also the leap is simply dummy text 
+                     of the printing and typesetting industry. Lorem Ipsum has been 
+                     the industry's standard dummy text ever since the 1500s, 
+                     when an unknown printer took a galley of type and scrambled it
+                      to make a type speci</p>
+            </div>
+            <div className="colum2-professor">
+
+            </div>
+        </div>
+     </section>
+
+
+
+
+
 
 
       <section className="projetos">
