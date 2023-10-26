@@ -1,13 +1,9 @@
 
-
-
-
-
 export default function Rodape(){
     return (
        <>
            <footer>
-               <p>Rodapé</p>
+               <p>Desenvolvido por @nicolly.yy</p>
            </footer>
        </>
     )

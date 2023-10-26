@@ -91,11 +91,11 @@ export default function Home() {
             </div>
       </section>
      
-     <section className="professor-alunos">
-        <div>
+     <section >
+        <div className="professor-alunos"> 
             <div className="colum1-professor">
-                <h1>Alguma coisa Aqui</h1>
-                <p>is simply dummy text of the printing and typesetting industry. 
+                <h1 className="professor-titulo">Alguma coisa Aqui</h1>
+                <p className="professor-texto">is simply dummy text of the printing and typesetting industry. 
                     Lorem Ipsum has been the industry's standard dummy text ever 
                     since the 1500s, when an unknown printer took a galley of type
                      and scrambled it to make a type specimen book. It has survived 
@@ -179,10 +179,11 @@ export default function Home() {
           <section className="form" id="contato">
           <div className="contato" >
                   <div className="colum1">
-                    <form>
-                      <input className="inp-name input-contato" type="text" name="" id="" placeholder="Nome Completo"/>
-                      <input className="inp-tel input-contato" type="text" name="" id="" placeholder="Telefone"/>
-                      
+                    <form className="form-contato">
+                    <div className="form-linha-1">
+                        <input className="inp-name input-contato" type="text" name="" id="" placeholder="Nome Completo"/>
+                        <input className="inp-tel input-contato" type="text" name="" id="" placeholder="Telefone"/>
+                      </div>
                       <input className="inp-email input-contato" type="text" name="" id="" placeholder="E-mail"/>
                       <input className="inp-subject input-contato" type="text" name="" id="" placeholder="Assunto"/>
                       <textarea className="textarea input-contato" name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
@@ -197,15 +198,15 @@ export default function Home() {
                      <div className="media-querie-social-links">
                       <div className="link-contato">
                           <img className="contato-img" src={Linkedin} alt="Logo do linkedin"/>
-                          <a className="contato-texto" href="#">seuuseraqui.com</a>
+                          
                       </div>
                       <div className="link-contato">
                           <img className="contato-img"  src={Google} alt="Logo do Google"/>
-                          <a  className="contato-texto" href="#">seuuseraqui@gmail.com</a>
+                         
                       </div>
                       <div className="link-contato">
                           <img className="contato-img"  src={Whatsapp} alt="Logo do Whatsapp"/>
-                          <a  className="contato-texto" href="#">(11) 9898 - 9898</a>
+                          
                       </div>
                       </div>
                   </div>

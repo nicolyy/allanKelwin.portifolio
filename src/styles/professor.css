@@ -8,26 +8,39 @@
     margin-bottom: 0%;
 }
 
-.conteudo-box{
-    background-color: var(--cor-quatro);
+.colum1-professor{
+    width: 100%;
+    background-color: #000000;
+    grid-column: 1/2;
+    font-size: 2rem;
     
    
 }
-.conteudo-box2{
+
+.professor-alunos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.colum2-professor{
     width: 100%;
-    background-image: url(../img/treinador-falando-com-a-vista-frontal-dos-jogadores\ 1professor.png);
+    background-image: url(../assets/treinador.png);
     background-repeat: no-repeat;
     background-size: cover;
+    grid-column: 2/2;
+
     
 }
 
 .professor-titulo{
     font-family: var(--fonte-principal);
     font-weight: bold;
-    font-size: 2rem;
     color: white;
-    text-align: left;
     padding: 10% 10% 0% 10%;
+  
 }
 
 .professor-texto{
@@ -38,26 +51,3 @@
     padding: 2% 10% 10% 10%;
 }
 
-/* Estilos padrão para todos os dispositivos */
-
-@media only screen and (max-width: 768px) {
-    /* Estilos para dispositivos com largura máxima de 768px (tablets e dispositivos móveis) */
-  }
-
-/* Estilos padrão para todos os dispositivos */
-
-@media only screen and (max-width: 480px) {
-    /* Estilos para dispositivos com largura máxima de 480px (smartphones em modo retrato) */
-  }
-
-/* Estilos padrão para todos os dispositivos */
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-    /* Estilos para tablets em modo retrato (largura entre 768px e 1024px) */
-  }
-
-/* Estilos padrão para todos os dispositivos */
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    /* Estilos para tablets em modo paisagem (largura entre 768px e 1024px) */
-  }

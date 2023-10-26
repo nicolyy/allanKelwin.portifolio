@@ -87,10 +87,37 @@
   
 }
 
+.btn-conhecer{
+  background-color: #2B3582;
+  color: #ffffff;
+  font-family: var(--fonte-principal);
+  text-decoration: none;
+
+  border-radius: 15px;
+
+  padding: 2% 15% 2% 15%;   
+}
 
 
 
+/* Rodape */
 
+footer{
+  width: 100%;
+  height: 20vh;
+  background-color: var(--cor-fundo);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+footer p{
+
+ text-align: center;
+ font-family: var(--fonte-principal);
+}
 
 
 
@@ -98,6 +125,12 @@
 
 @media only screen and (max-width: 768px) {
     /* Estilos para dispositivos com largura máxima de 768px (tablets e dispositivos móveis) */
+    .nav{
+      display: none;
+    }
+    
+    
+    
     .principal{
       background-color: var(--cor-fundo);
       display: flex;
@@ -109,12 +142,12 @@
   }
   
   .principal-titulo{
-    margin: 6% 0 0 0;
+    margin: 12% 0 0 0;
     font-size: 32px;
   }
 
   .principal-subtitulo{
-    font-size: 20px;
+    font-size: 16px;
   }
   
   .principal-texto{
@@ -163,13 +196,23 @@
     background-image: url(../assets/treinador.png);
     size: cover;
   }
-  
 
-
+  .professor-titulo{
+    font-size: 24px;
   
   }
 
+  .professor-texto{
+    font-size: 16px;
+  }
 
+
+
+  footer{
+    width: 100%;
+    margin: 16% 0 0 0;
+  }
+}
 
 /* Estilos padrão para todos os dispositivos */
 
