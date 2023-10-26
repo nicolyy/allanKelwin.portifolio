@@ -127,6 +127,8 @@ details > .summary-open p{
     text-align: left;
     color: #000000;
     padding: 2% 0 0 0;
+
+    margin-bottom: 5%;
 }
 
 /* Estilos padrão para todos os dispositivos */
@@ -165,6 +167,22 @@ details > .summary-open p{
 
 .summary-titulo{
     font-size: 22px;
+}
+
+
+details > .summary-open{
+    margin-top: 0.1%;
+   
+    
+}
+
+details > .summary-open p{
+    padding: 2% 5% 10% 5%
+}
+
+
+summary img{
+    width: 30px;
 }
 }
 
