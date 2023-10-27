@@ -243,10 +243,3 @@ textarea:focus{
 }
 }
 
-/* Estilos padrão para todos os dispositivos */
-
-@media only screen and (max-width: 480px) {
-    /* Estilos para dispositivos com largura máxima de 480px (smartphones em modo retrato) */
-}
-
-
