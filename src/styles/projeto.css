@@ -1,5 +1,5 @@
 .projetos{
-    width: 100%;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -77,9 +77,9 @@
     .projetos{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
-        margin: 0%  8% 30% 8%;
+        margin: 0%  0% 50% 0%;
     }
     
     
@@ -104,9 +104,10 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        justify-content: space-between;
       
         
-        margin: 20% 0 20% 0 ;
+        margin: 0% 0 20% 0 ;
        
     }
     
@@ -116,21 +117,32 @@
         flex-direction: column ;
         align-items: center;
         text-align:center;
+        justify-content: space-between;
         
-        margin: 20% 0 20% 0 ;
+        margin: 0% 0 20% 0 ;
        
     }
+
+    .linha1{
+        margin: 0 0 30% 0;
+    }
+     .linha3, .linha4 {
+        margin: 30% 0 30% 0;
+    }
     
+    .linha2{
+        margin: 30% 0 30% 0;
+    }
     .conteudo-projeto{
         width: 100%;
         height: 80%;
-
-        margin: 5% 0 5% 0
+        margin: 20% 0 20% 0;
+      
        
     }
     
     .projeto-img{
-        margin-top: 10%;
+        margin: 20% 0 20% 0;
         width: 100%;
  
     }
