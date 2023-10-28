@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import '../../script/script.js'
 // Import CSS
 import '../../styles/styles.css'
 
@@ -16,7 +16,6 @@ import Img2 from '../../assets/Group 2img2.png'
 import Img3 from '../../assets/Group 3img3.png'
 import Img4 from '../../assets/Group 4img4.png'
 import Seta from '../../assets/seta.png'
-
 
 
 
@@ -179,17 +178,19 @@ export default function Home() {
           <section className="form" id="contato">
           <div className="contato" >
                   <div className="colum1">
-                    <form className="form-contato">
-                    <div className="form-linha-1">
-                        <input className="inp-name input-contato" type="text" name="" id="" placeholder="Nome Completo"/>
-                        <input className="inp-tel input-contato" type="text" name="" id="" placeholder="Telefone"/>
-                      </div>
-                      <input className="inp-email input-contato" type="text" name="" id="" placeholder="E-mail"/>
-                      <input className="inp-subject input-contato" type="text" name="" id="" placeholder="Assunto"/>
-                      <textarea className="textarea input-contato" name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
-                      <div className="button">
-                          <button className="btn-enviar">Enviar</button>
-                      </div>
+                    <form action="https://formsubmit.co/testew279@gmail.com"  className="form-contato" id="formulario" method="POST" name="formulario" >
+                        <div className="form-linha-1">
+                            <input className="inp-name input-contato" type="text" name="nome" id="nome" placeholder="Nome Completo" required/>
+                            <input className="inp-tel input-contato" type="tel" name="telefone" id="telefone" placeholder="Telefone" required/>
+                        </div>
+                        <input className="inp-email input-contato" type="email" name="email" id="email" placeholder="E-mail" required/>
+                        <input className="inp-subject input-contato" type="text" name="assunto" id="assunto" placeholder="Assunto" required/>
+                        <textarea className="textarea input-contato" type="text" name="mensagemt" id="mensagem" cols="30" rows="10" placeholder="Mensagem" required></textarea>
+                        <input type="hidden" name="_next" value="http://localhost:5173/Obrigado"></input>
+                        <input type="hidden" name="_captcha" value="false"></input>
+                        <div className="button">
+                            <button className="btn-enviar">Enviar</button>
+                        </div>
                     </form>
                   </div>
 
