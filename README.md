@@ -2,7 +2,7 @@
 > O Projeto foi desenvolvido para a criaçãod e um portifolio para um profissional de Educação Fisica, com informações basicas de curriculo e projetos pessoais
 > O design foi elaborado na plataforma Figma [clique e veja o projeto](https://www.figma.com/file/q4EHIrn1BGFRm49Wb9q89v/Portifolio-Allan?type=design&node-id=3-14&mode=design&t=7LLxJkZOMhIAMCvU-0)
 
-##FormSubmit
+## FormSubmit
 Para o envio do formulário, uitilizei a biblioteca do [formsubmit](https://formsubmit.co/services)
 
 ##React + Vite
@@ -13,7 +13,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-#Tecnologias Utilizadas
+# Tecnologias Utilizadas
 + HTML
   +Para criar a base das paginas
 + CSS
