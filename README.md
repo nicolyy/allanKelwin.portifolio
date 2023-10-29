@@ -25,12 +25,24 @@ Currently, two official plugins are available:
 + FORMSUBMIT
   +Biblioteca para o envio do formulário
 
-#Check-List do Projeto
-[X] Rotas
-[X] BreakPoint MOBILE - DESKTOP
-[X] Estilização das paginas conforme o Design do Figma
-[ ] Limpar código css (para diminuir classes desnessesarias e repetição de código
+# Check-List do Projeto
+-[X] Rotas
+-[X] BreakPoint MOBILE - DESKTOP
+-[X] Estilização das paginas conforme o Design do Figma
+-[ ] Limpar código css (para diminuir classes desnessesarias e repetição de código
 
-#Desenvolvido por 
+# Desenvolvido por 
 [Nicoly Oliveira](https://www.linkedin.com/in/nicoly-oliveira-santos-7917bb1b8/)
 
+# Rodando o projeto
+Caso queira rodar o projeto em seu computador
+1. Abra o terminal dentro do diretório
+2. Execute o codigo
+   ~~~node
+   npm install
+   ~~~
+3. Após o downloads, execute o código
+   ~~~node
+   npm run dev
+   ~~~
+4. Copie o endereço e coloque no seu navegador
