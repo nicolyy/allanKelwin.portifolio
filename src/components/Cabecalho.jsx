@@ -11,6 +11,7 @@ import { Link } from "react-router-dom";
                  <header className="nav">
                     <Link to="/">SOBRE MIM</Link>
                     <Link to="/">CONTATO</Link>
+                    <Link to="/Obrigado">TESTE</Link>
                 </header>
             </>
         )
