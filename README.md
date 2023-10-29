@@ -30,6 +30,7 @@ Currently, two official plugins are available:
 -[X] BreakPoint MOBILE - DESKTOP
 -[X] Estilização das paginas conforme o Design do Figma
 -[ ] Limpar código css (para diminuir classes desnessesarias e repetição de código
+-[ ] Adicionar Links nas imagens e no header
 
 # Desenvolvido por 
 [Nicoly Oliveira](https://www.linkedin.com/in/nicoly-oliveira-santos-7917bb1b8/)
