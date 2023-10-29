@@ -186,7 +186,7 @@ export default function Home() {
                         <input className="inp-email input-contato" type="email" name="email" id="email" placeholder="E-mail" required/>
                         <input className="inp-subject input-contato" type="text" name="assunto" id="assunto" placeholder="Assunto" required/>
                         <textarea className="textarea input-contato" type="text" name="mensagemt" id="mensagem" cols="30" rows="10" placeholder="Mensagem" required></textarea>
-                        <input type="hidden" name="_next" value="Obrigado/index.jsx"></input>
+                        <input type="hidden" name="_next" value="https://allan-kelwin-portifolio-git-master-nicolyy.vercel.app/Obrigado"></input>
                         <input type="hidden" name="_captcha" value="false"></input>
                         <div className="button">
                             <button className="btn-enviar">Enviar</button>
