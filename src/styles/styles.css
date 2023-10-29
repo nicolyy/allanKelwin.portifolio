@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Roboto:wght@400;900&display=swap');
 @import url(projeto.css);
 @import url(contato.css);
+@import url(obrigado.css);
 
 /* Variaveis*/
 :root{
@@ -39,8 +40,8 @@
     color: #2B3582;
     font-size: 1.5rem;
 
-    padding-left: 5%;
-    padding-top: 2%;
+    padding: 2% 0 2% 2%;
+   
 }
 .nav a {
     text-decoration: none;

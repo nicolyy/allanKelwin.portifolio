@@ -178,7 +178,7 @@ export default function Home() {
           <section className="form" id="contato">
           <div className="contato" >
                   <div className="colum1">
-                    <form action="https://formsubmit.co/testew279@gmail.com"  className="form-contato" id="formulario" method="POST" name="formulario" >
+                    <form action="https://formsubmit.co/kelwinsantos@hotmail.com"  className="form-contato" id="formulario" method="POST" name="formulario" >
                         <div className="form-linha-1">
                             <input className="inp-name input-contato" type="text" name="nome" id="nome" placeholder="Nome Completo" required/>
                             <input className="inp-tel input-contato" type="tel" name="telefone" id="telefone" placeholder="Telefone" required/>
