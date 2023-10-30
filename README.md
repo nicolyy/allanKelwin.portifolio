@@ -26,11 +26,12 @@ Currently, two official plugins are available:
   +Biblioteca para o envio do formulário
 
 # Check-List do Projeto
--[X] Rotas
--[X] BreakPoint MOBILE - DESKTOP
--[X] Estilização das paginas conforme o Design do Figma
--[ ] Limpar código css (para diminuir classes desnessesarias e repetição de código
--[ ] Adicionar Links nas imagens e no header
+- [X] Rotas
+- [X] BreakPoint MOBILE - DESKTOP
+- [X] Estilização das paginas conforme o Design do Figma
+- [ ] Limpar código css (para diminuir classes desnessesarias e repetição de código
+- [ ] Adicionar Links nas imagens e no header
+- [ ] Ajustar a URL da pagina obrigado após envio do formulário
 
 # Desenvolvido por 
 [Nicoly Oliveira](https://www.linkedin.com/in/nicoly-oliveira-santos-7917bb1b8/)
