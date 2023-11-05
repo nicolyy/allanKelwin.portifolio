@@ -20,6 +20,7 @@
 
 .sobre-mim-img{
     width: 80%;
+    border-radius: 15px;
 }
 
 details{
@@ -80,9 +81,24 @@ details > .summary-open p{
     text-align: left;
 
     color: #ffffff;
+
+    
+    
 }
 
 
+.summary-texto h3{
+    font-weight: bold;
+}
+
+.summary-texto li{
+    list-style-type: square;
+    margin: 0 0 0 5% ;
+}
+
+.habilidades-lista{
+    padding:  0 0 5% 5%;
+}
 
 
 
