@@ -29,7 +29,8 @@ export default function Home() {
             <p className="principal-subtitulo principal-item">Profissional de Educação Fisica </p>
             <p className="principal-texto principal-item">"O esporte tem a capacidade de transformar pensamentos, 
                 quebrar paradigmas, educando os estudantes pelo movimento e interação social". Diogo Diedrich</p>
-            <Link to = "" className="btn-conhecer">CONHECER</Link>
+            <a href="#sobre-mim" className="btn-conhecer">CONHECER</a>
+            
         </article>
         <img className="principal-img" src={Quadra} alt = "Quatro pessoas praticando esportes em uma quadra escolar" />
       </main>
@@ -51,7 +52,7 @@ export default function Home() {
                         <li>
                             <h3>Educação Fisica (Licenciatura)</h3>
                             <p>Centro Universitário das Faculdades 
-                                Metropolitanas Unidas - FMU | 02/2023 até 12/2023</p>
+                                Metropolitanas Unidas - FMU | 02/2020 até 12/2023</p>
   
                         </li>
                         <li>
