@@ -174,7 +174,12 @@ textarea:focus{
 
 @media only screen and (max-width: 768px) {
     /* Estilos para dispositivos com largura máxima de 768px (tablets e dispositivos móveis) */
- .contato{
+.form{
+    margin-top: 10%;
+}
+
+
+    .contato{
     margin-top: 100%;
     display: flex;
     flex-direction: column-reverse;

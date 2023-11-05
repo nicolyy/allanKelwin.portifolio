@@ -182,13 +182,15 @@ footer p{
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 10% 0 10% 0;
+    
     
       
   }
   .colum1-professor{
     background-color: #2EC4B6;
     width: 100%;
-    height: 50vh;
+    height: 60vh;
   }
   
   .colum2-professor{
@@ -200,7 +202,7 @@ footer p{
   }
 
   .professor-titulo{
-    font-size: 24px;
+    font-size: 22px;
     padding: 10% 10% 0% 10%;
     text-align: left;
   
@@ -211,27 +213,9 @@ footer p{
     padding: 2% 2% 10% 2%;
   }
 
-
-
   footer{
     width: 100%;
     margin: 16% 0 0 0;
   }
 }
-
-/* Estilos padrão para todos os dispositivos */
-
-@media only screen and (max-width: 480px) {
-    /* Estilos para dispositivos com largura máxima de 480px (smartphones em modo retrato) */
-    .principal{
-      background-color: var(--cor-fundo);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  
-      padding: 0 15% 0 15%;
-  }
-  
-  
-  }
 
