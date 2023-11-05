@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import '../../script/script.js'
+
 // Import CSS
 import '../../styles/styles.css'
 
@@ -10,11 +11,11 @@ import Quadra from '../../assets/Framequadra.png'
 import Google from '../../assets/google.png'
 import Linkedin from '../../assets/linkedin.png'
 import Whatsapp from '../../assets/whatsapp.png'
-import Allan from '../../assets/Rectangle 4allan.png'
-import Img1 from '../../assets/Group 1img1.png'
-import Img2 from '../../assets/Group 2img2.png'
-import Img3 from '../../assets/Group 3img3.png'
-import Img4 from '../../assets/Group 4img4.png'
+import Allan from '../../assets/foto1.jpg'
+import Img1 from '../../assets/foto3.png'
+import Img2 from '../../assets/foto4.png'
+import Img3 from '../../assets/foto5.png'
+import Img4 from '../../assets/foto6.png'
 import Seta from '../../assets/seta.png'
 
 
@@ -49,13 +50,14 @@ export default function Home() {
                     <ul className="summary-texto">
                         <li>
                             <h3>Educação Fisica (Licenciatura)</h3>
-                            <p>Centro Universitário das Faculdades Metropolitanas Unidas - FMU</p>
-                            <p>Janeiro de 2020 - Dezembro de 2023</p>   
+                            <p>Centro Universitário das Faculdades 
+                                Metropolitanas Unidas - FMU | 02/2023 até 12/2023</p>
+  
                         </li>
                         <li>
                             <h3>Tecnico em Adminstração</h3>
-                            <p>Etec de Sapopemba</p>
-                            <p>Janeiro de 2017 - Dezembro de 2019</p>
+                            <p>Etec de Sapopemba | 02/2017 até 12/2019</p>
+                            
 
                         </li>
                     </ul>
@@ -72,7 +74,7 @@ export default function Home() {
                             <p>Inglês - <strong>Avançado</strong></p>
                         </li>
                         <li>
-                            <p>Português - <strong>Avançado</strong></p> </li>
+                            <p>Português - <strong>Nativo</strong></p> </li>
                     </ul>
                 </div>
             </details>
@@ -84,23 +86,24 @@ export default function Home() {
                     <ul className="summary-texto">
                         <li>
                             <h3>Colégio Palmares</h3>
-                            <p>Estágiario</p>
-                            <p>Setembro de 2022 - Até o momento</p>
+                            <p>Estágiario | 09/2022 - Até o momento</p>
+                        
+                        
                         </li>
                         <li>
                             <h3>Colégio Brasil Canáda</h3>
-                            <p>Professor Especialista</p>
-                            <p>Junho de 2023 - Até o momento</p>
+                            <p>Professor Especialista | 05/2023 - Até o momento </p>
+                            
                         </li>
                         <li>
                             <h3>Saint Nicholas School</h3>
-                            <p>Professor Especialista</p>
-                            <p>Setembro de 2023 - Até o momento</p>
+                            <p>Professor Especialista | 09/2023 - Até o momento</p>
+                           
                         </li>
                         <li>
                             <h3>Corpo Brinquedo LTDA</h3>
-                            <p>Coordenador</p>
-                            <p>Junho de 2023 - Até o momento</p>
+                            <p>Coordenador | 05/2023 - Até o momento</p>
+    
                         </li>
                     </ul>
                 </div>
@@ -110,7 +113,7 @@ export default function Home() {
                    <img src={Seta} alt="Seta para abrir"/>
                 </summary>
                 <div className="summary-open">
-                    <ul className="summary-texto">
+                    <ul className="summary-texto habilidades-lista">
                         <li>Planejamento de Aulas</li>
                         <li>Desenvolvimento e acompanhamento de habilidades física dos alunos</li>
                         <li>Elaboraçaõ de projetos</li>
@@ -125,7 +128,7 @@ export default function Home() {
      <section >
         <div className="professor-alunos"> 
             <div className="colum1-professor">
-                <h1 className="professor-titulo">O Professor</h1>
+                <h1 className="professor-titulo">O Professor de Educação Física</h1>
                 <p className="professor-texto">É um profissional dedicado ao ensino de atividades
                  de carater motor, incluindo esportes, jogos e brincadeiras, danças e lutas. 
                  Ele projeta e ministra aulas, promove o desenvolvimento da coordenação,
@@ -219,7 +222,7 @@ export default function Home() {
                         <input className="inp-subject input-contato" type="text" name="assunto" id="assunto" placeholder="Assunto" required/>
                         <textarea className="textarea input-contato" type="text" name="mensagemt" id="mensagem" cols="30" rows="10" placeholder="Mensagem" required></textarea>
                         <input type="hidden" name="_captcha" value="false"></input>
-                        <input type="hidden" name="_next" value="https://allankelwin-portifolio.netlify.app/Obrigado"></input>
+                        <input type="hidden" name="_next" value="../Obrigado/index.jsx"></input>
                         <div className="button">
                             <button id="enviar" className="btn-enviar">Enviar</button>
                         </div>
@@ -230,16 +233,19 @@ export default function Home() {
                       <h2 className="contato-titulo">ENTRE EM CONTATO</h2>
                      <div className="media-querie-social-links">
                       <div className="link-contato">
+                        <a href="https://www.linkedin.com/in/allan-k-9269141a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank">
                           <img className="contato-img" src={Linkedin} alt="Logo do linkedin"/>
-                          
+                        </a>
                       </div>
                       <div className="link-contato">
+                        <a href="mailto:kelwinsantos@hotmail.com">
                           <img className="contato-img"  src={Google} alt="Logo do Google"/>
-                         
+                        </a>
                       </div>
                       <div className="link-contato">
+                        <a href="https://wa.me/5511990084070" target="blank">
                           <img className="contato-img"  src={Whatsapp} alt="Logo do Whatsapp"/>
-                          
+                        </a>
                       </div>
                       </div>
                   </div>
