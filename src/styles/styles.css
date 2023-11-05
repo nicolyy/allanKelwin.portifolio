@@ -83,7 +83,7 @@
 
 .colum2-professor{
   height: 100%;
-  background-image: url(../assets/treinador.png);
+  background-image: url(../assets/foto2.png);
   grid-column: 2/2;
   
 }
@@ -145,6 +145,7 @@ footer p{
   .principal-titulo{
     margin: 12% 0 0 0;
     font-size: 32px;
+    
   }
 
   .principal-subtitulo{
@@ -194,17 +195,20 @@ footer p{
 
     height: 50vh;
    
-    background-image: url(../assets/treinador.png);
+    background-image: url(../assets/foto2.png);
     size: cover;
   }
 
   .professor-titulo{
     font-size: 24px;
+    padding: 10% 10% 0% 10%;
+    text-align: left;
   
   }
 
   .professor-texto{
     font-size: 16px;
+    padding: 2% 2% 10% 2%;
   }
 
 

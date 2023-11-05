@@ -144,6 +144,13 @@
     
 }
 
+.btn-enviar:hover{
+    background-color: #2EC4B6;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+
+}
+
 ::placeholder{
     font-family: var(--fonte-principal);
     color: #000000;
@@ -237,7 +244,7 @@ textarea:focus{
 }
 
 .contato-img{
-    width: 40px;
+    width: 35px;
     margin: 5% 0 0 0;
     
 }
