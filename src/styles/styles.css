@@ -71,7 +71,7 @@
 }
 
 .colum1-professor h1{
-  font-size: var(--fonte-principal);
+  font-size: 28px;
   text-transform: uppercase;
   color: #ffffff;
 }
