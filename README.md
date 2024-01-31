@@ -1,5 +1,5 @@
-# Portifólio Professor 
-O Projeto foi desenvolvido para a criaçãod e um portifolio para um profissional de Educação Fisica, com informações basicas de curriculo e projetos pessoais
+## Portifólio Professor 
+O Projeto foi desenvolvido para a criação de um portifolio para um profissional de Educação Fisica, com informações basicas de curriculo e projetos pessoais
 O design foi elaborado na plataforma Figma [clique e veja o projeto no Figma](https://www.figma.com/file/q4EHIrn1BGFRm49Wb9q89v/Portifolio-Allan?type=design&node-id=3-14&mode=design&t=7LLxJkZOMhIAMCvU-0)
 
 ## Acessando o projeto online...
