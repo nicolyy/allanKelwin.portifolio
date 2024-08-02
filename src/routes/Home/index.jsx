@@ -11,11 +11,11 @@ import Quadra from '../../assets/Framequadra.png'
 import Google from '../../assets/google.png'
 import Linkedin from '../../assets/linkedin.png'
 import Whatsapp from '../../assets/whatsapp.png'
-import Allan from '../../assets/foto1.jpg'
-import Img1 from '../../assets/foto3.png'
-import Img2 from '../../assets/foto4.png'
-import Img3 from '../../assets/foto5.png'
-import Img4 from '../../assets/foto6.png'
+import Allan from '../../assets/Rectangle 4allan.png'
+import Img1 from '../../assets/Group 1img1.png'
+import Img2 from '../../assets/Group 2img2.png'
+import Img3 from '../../assets/Group 3img3.png'
+import Img4 from '../../assets/Group 2img2.png'
 import Seta from '../../assets/seta.png'
 
 
@@ -25,7 +25,7 @@ export default function Home() {
     <>
       <main className="principal">
         <article className="principal-conteudo">
-            <h1 className="principal-titulo principal-item" >Allan Kelwin</h1>
+            <h1 className="principal-titulo principal-item" >Gabriel Peixoto</h1>
             <p className="principal-subtitulo principal-item">Profissional de Educação Fisica </p>
             <p className="principal-texto principal-item">"O esporte tem a capacidade de transformar pensamentos, 
                 quebrar paradigmas, educando os estudantes pelo movimento e interação social". Diogo Diedrich</p>
@@ -57,7 +57,7 @@ export default function Home() {
                         </li>
                         <li>
                             <h3>Tecnico em Adminstração</h3>
-                            <p>Etec de Sapopemba | 02/2017 até 12/2019</p>
+                            <p>Etec de São Paulo | 02/2017 até 12/2019</p>
                             
 
                         </li>
@@ -234,17 +234,17 @@ export default function Home() {
                       <h2 className="contato-titulo">ENTRE EM CONTATO</h2>
                      <div className="media-querie-social-links">
                       <div className="link-contato">
-                        <a href="https://www.linkedin.com/in/allan-k-9269141a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank">
+                        <a href="https://www.linkedin.com" target="blank">
                           <img className="contato-img" src={Linkedin} alt="Logo do linkedin"/>
                         </a>
                       </div>
                       <div className="link-contato">
-                        <a href="mailto:kelwinsantos@hotmail.com">
+                        <a href="mailto:gabrielpeixoto@hotmail.com">
                           <img className="contato-img"  src={Google} alt="Logo do Google"/>
                         </a>
                       </div>
                       <div className="link-contato">
-                        <a href="https://wa.me/5511990084070" target="blank">
+                        <a href="https://wa.me/5511999999" target="blank">
                           <img className="contato-img"  src={Whatsapp} alt="Logo do Whatsapp"/>
                         </a>
                       </div>
